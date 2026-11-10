@@ -14,7 +14,7 @@ import frc.robot.systems.AutoHandlerSystem.AutoFSMState;
  * public class _______ extends FSMSystem<FSMState> {
  *	  ...
  * }
- *
+ 
  * Your compiler / IDE will tell you what methods you need to implement
  * You should also have state handlers shown in the example
  * @param <S> the type of state
@@ -32,6 +32,7 @@ public abstract class FSMSystem<S> {
 	 */
 	public S getCurrentState() {
 		return currentState;
+		
 	}
 
 	/**
