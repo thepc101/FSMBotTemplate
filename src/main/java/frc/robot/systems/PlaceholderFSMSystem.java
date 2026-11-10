@@ -22,7 +22,7 @@ public class PlaceholderFSMSystem extends FSMSystem<IdentityStateSpace> {
 
 	@Override
 	public boolean updateAutonomous(AutoFSMState autoState) {
-		return false;
+		return true;
 	}
 
 	@Override
